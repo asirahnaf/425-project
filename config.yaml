@@ -1,0 +1,53 @@
+# GNN-BERT Music Context — shared config
+project: gnn-bert-music-context
+seed: 42
+
+audio:
+  sr: 22050
+  n_mels: 128
+  n_chroma: 12
+  n_mfcc: 20
+  n_fft: 2048
+  hop_length: 512
+  fmin: 0
+  fmax: 11025
+  normalize_per_track: true
+
+segmentation:
+  mode: fixed  # fixed | beat_sync
+  window_sec: 5.0
+  hop_sec: 5.0  # non-overlapping by default; set < window_sec for overlap
+  beat_agg: mean  # mean | max for beat-sync pooling
+
+graph:
+  segment_sim_threshold: 0.7  # tau cosine similarity
+  add_temporal_edges: true
+  self_loops: false
+  chord_templates: major_minor  # 24 templates
+
+text:
+  tokenizer: distilbert-base-uncased  # or bert-base-uncased
+  max_length: 128
+  truncation: true
+  padding: max_length
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  splits_dir: data/splits
+  results_dir: results
+
+splits:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+  no_artist_leakage: true
+
+train:
+  batch_size: 32
+  epochs_bert: 5
+  epochs_gnn: 50
+  epochs_fusion: 30
+  lr: 2e-5
+  gnn_lr: 1e-3
+  weight_decay: 0.01

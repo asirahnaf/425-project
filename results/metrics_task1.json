@@ -1,0 +1,43 @@
+{
+  "test": {
+    "macro_f1": 0.08550594346219158,
+    "micro_f1": 0.3847376788553259,
+    "auc_pr_macro": 0.40758501720416185
+  },
+  "history": {
+    "train_loss": [
+      0.5419414838155111,
+      0.4479887154367235
+    ],
+    "val_macro": [
+      0.06373619015734851,
+      0.07327996757523558
+    ],
+    "val_micro": [
+      0.2877442273534636,
+      0.34505862646566166
+    ]
+  },
+  "tags": [
+    "vocal",
+    "male",
+    "guitar",
+    "drums",
+    "fast",
+    "loud",
+    "synth",
+    "female",
+    "soft",
+    "piano",
+    "happy",
+    "pop",
+    "electronic",
+    "rock",
+    "slow",
+    "dance",
+    "strings",
+    "classical",
+    "hiphop",
+    "violin"
+  ]
+}

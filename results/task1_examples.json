@@ -1,0 +1,159 @@
+[
+  {
+    "text": "This piano song features a piano playing the backing chords. A violin plays the main melody. The melody is romantic but turns eerie at the end. There are no other instruments in this song. A male voice narrates two words toward the end of the song. This song can be played in a promotional video.",
+    "true": [
+      "male",
+      "piano",
+      "slow",
+      "violin"
+    ],
+    "pred": [
+      "vocal",
+      "male"
+    ],
+    "probs": [
+      0.573,
+      0.596,
+      0.345,
+      0.345,
+      0.265,
+      0.164,
+      0.197,
+      0.21,
+      0.135,
+      0.148,
+      0.143,
+      0.183,
+      0.128,
+      0.116,
+      0.141,
+      0.157,
+      0.118,
+      0.102,
+      0.111,
+      0.098
+    ]
+  },
+  {
+    "text": "This song is a mandolin instrumental. The tempo is medium with a lively melody on the mandolin. The music is minimalist without  any other instruments. The music is high pitched, melodious and charming. This audio ends abruptly indicating that this could be a mandolin tutorial.",
+    "true": [
+      "classical"
+    ],
+    "pred": [
+      "vocal"
+    ],
+    "probs": [
+      0.531,
+      0.497,
+      0.358,
+      0.348,
+      0.264,
+      0.155,
+      0.208,
+      0.213,
+      0.147,
+      0.145,
+      0.139,
+      0.192,
+      0.132,
+      0.105,
+      0.124,
+      0.17,
+      0.123,
+      0.108,
+      0.094,
+      0.103
+    ]
+  },
+  {
+    "text": "This is a clip of a singing bowl. The tone is high pitched and sustained and ringing. The song would be suitable for a meditation room or for any kind of environment wherein tranquility is the end goal.",
+    "true": [
+      "vocal",
+      "soft"
+    ],
+    "pred": [],
+    "probs": [
+      0.485,
+      0.492,
+      0.337,
+      0.305,
+      0.27,
+      0.172,
+      0.172,
+      0.216,
+      0.142,
+      0.145,
+      0.145,
+      0.176,
+      0.146,
+      0.103,
+      0.13,
+      0.18,
+      0.124,
+      0.102,
+      0.109,
+      0.099
+    ]
+  },
+  {
+    "text": "This audio contains someone playing a xylophone sound and rattles. This is an amateur recording. You can hear clicking and recording noises. This audio may be playing demonstrating specific sounds on a device.",
+    "true": [],
+    "pred": [],
+    "probs": [
+      0.427,
+      0.442,
+      0.378,
+      0.292,
+      0.27,
+      0.182,
+      0.186,
+      0.198,
+      0.125,
+      0.141,
+      0.134,
+      0.165,
+      0.138,
+      0.109,
+      0.123,
+      0.143,
+      0.129,
+      0.107,
+      0.113,
+      0.096
+    ]
+  },
+  {
+    "text": "The low quality recording features a mixed background vocals singing over acoustic rhythm guitar. There is also a child talking over the song. The recording is noisy and muffled, but it sounds fun and happy.",
+    "true": [
+      "vocal",
+      "guitar",
+      "loud",
+      "happy"
+    ],
+    "pred": [
+      "male"
+    ],
+    "probs": [
+      0.478,
+      0.525,
+      0.408,
+      0.269,
+      0.252,
+      0.213,
+      0.195,
+      0.206,
+      0.179,
+      0.142,
+      0.136,
+      0.165,
+      0.133,
+      0.106,
+      0.124,
+      0.13,
+      0.145,
+      0.088,
+      0.097,
+      0.102
+    ]
+  }
+]

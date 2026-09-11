@@ -1,0 +1,53 @@
+[
+  {
+    "track": "syn3_pop_9",
+    "genre": "pop",
+    "text": "catchy pop song with happy vocal melody (clip 9)",
+    "true": [
+      "pop",
+      "happy",
+      "vocal"
+    ],
+    "pred": [
+      "pop",
+      "happy",
+      "vocal"
+    ],
+    "num_nodes": 12,
+    "num_edges": 132
+  },
+  {
+    "track": "classical.00001",
+    "genre": "classical",
+    "text": "orchestral classical piece with piano and strings",
+    "true": [
+      "classical",
+      "sad",
+      "piano"
+    ],
+    "pred": [
+      "classical",
+      "sad",
+      "piano"
+    ],
+    "num_nodes": 7,
+    "num_edges": 12
+  },
+  {
+    "track": "country.00056",
+    "genre": "country",
+    "text": "country song with acoustic guitar and vocal storytelling",
+    "true": [
+      "pop",
+      "guitar",
+      "vocal"
+    ],
+    "pred": [
+      "pop",
+      "guitar",
+      "vocal"
+    ],
+    "num_nodes": 7,
+    "num_edges": 12
+  }
+]

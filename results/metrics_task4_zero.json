@@ -1,0 +1,33 @@
+{
+  "zero_shot": {
+    "macro_f1": 0.31876077733953,
+    "micro_f1": 0.35192069392812886,
+    "thresh": 0.15
+  },
+  "supervised_task1": {
+    "macro_f1": 0.08550594346219158,
+    "micro_f1": 0.3847376788553259
+  },
+  "tags": [
+    "vocal",
+    "male",
+    "guitar",
+    "drums",
+    "fast",
+    "loud",
+    "synth",
+    "female",
+    "soft",
+    "piano",
+    "happy",
+    "pop",
+    "electronic",
+    "rock",
+    "slow",
+    "dance",
+    "strings",
+    "classical",
+    "hiphop",
+    "violin"
+  ]
+}

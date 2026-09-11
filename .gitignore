@@ -1,0 +1,12 @@
+# Source-only GitHub - dataset excluded per submission form
+# Full data + samples are in 22201249_sec03_project_report.zip
+data/raw/
+data/processed/
+*.wav
+*.npz
+*.pt.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Large checkpoints (keep small .pt in results/, exclude 265MB BERT)
+results/bert_task1.pt

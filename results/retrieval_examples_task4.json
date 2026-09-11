@@ -1,0 +1,212 @@
+[
+  {
+    "query": "This is an electroclash piece. There is a male vocalist singing in the lead with hollering samples in the background. An electric guitar is playing the main theme repeatedly. The bass guitar is playin",
+    "true_track": "LbPRGDwlfqs",
+    "top3": [
+      {
+        "track": "ZFimyfPWltk",
+        "text": "a male vocalist sings this enthusiastic swing pop. The tempo is fast with an enthusiastic electric guitar harmony, energetic drumming, funky bass line",
+        "score": 0.732
+      },
+      {
+        "track": "LbPRGDwlfqs",
+        "text": "This is an electroclash piece. There is a male vocalist singing in the lead with hollering samples in the background. An electric guitar is playing th",
+        "score": 0.671
+      },
+      {
+        "track": "rG_6MS6_K6g",
+        "text": "A male voice is rapping in a higher pitch and with reverb and delay on his voice. An acoustic drum sample is playing a simple hip hop groove along wit",
+        "score": 0.666
+      }
+    ]
+  },
+  {
+    "query": "a male vocalist sings this enthusiastic swing pop. The tempo is fast with an enthusiastic electric guitar harmony, energetic drumming, funky bass lines, keyboard harmony, emphatic vocals superimposed ",
+    "true_track": "ZFimyfPWltk",
+    "top3": [
+      {
+        "track": "BUzsQ6WohH4",
+        "text": "A male vocalist sings this  melodic song. The tempo is medium with muffled vocals, violin harmony, rhythmic guitar , steady drumming and straight bass",
+        "score": 0.68
+      },
+      {
+        "track": "Xxe6vTEwFvs",
+        "text": "The rock and roll music features a male voice singing a melody and at times singing in unison with a male backing voice. The band that accompanies the",
+        "score": 0.662
+      },
+      {
+        "track": "qVuxCN3JpiM",
+        "text": "Someone is playing acoustic drums with a lot of fill-ins before breaking into the next part of the song. A e-guitar and e-bass are playing the same me",
+        "score": 0.623
+      }
+    ]
+  },
+  {
+    "query": "This is a live recording of the outro of a latin american salsa song. There are brass instruments like the saxophone and trumpet. There is a man who speaks in Spanish once the music stops. It was the ",
+    "true_track": "FYux89o7Hhk",
+    "top3": [
+      {
+        "track": "uGQ7QnKqeY4",
+        "text": "This is an excerpt from a cartoon that involves sound effects resembling an intro to a minimal techno song. There is a breathing sound coming from one",
+        "score": 0.561
+      },
+      {
+        "track": "lTOzGIOIfq0",
+        "text": "The song is a movie soundtrack. Violins play in a mysterious harmony while ambient room noises are heard. Groaning, screams of agony, shouts, metal cu",
+        "score": 0.503
+      },
+      {
+        "track": "-o0ZtQIkM60",
+        "text": "This is a video game theme. There is a cinematic string sound playing the melody while the wind sound effect implies there is a snowstorm. A male choi",
+        "score": 0.434
+      }
+    ]
+  },
+  {
+    "query": "A male voice is singing kind of a calming lullaby in a higher pitch while you can hear sounds of painful screaming and crying that seem not to belong to the song. This is an amateur recording and not ",
+    "true_track": "_gWEpDgPAho",
+    "top3": [
+      {
+        "track": "LAxCq-s84F8",
+        "text": "The low quality recording features a flat female vocal shortly talking on a very noisy microphone, after which a song fades in. The song consists of s",
+        "score": 0.708
+      },
+      {
+        "track": "Fg8yzA7zifw",
+        "text": "The low quality recording features a very interactive live performance of a gospel song that consists of crowd harmonized singing and clapping, alongs",
+        "score": 0.69
+      },
+      {
+        "track": "_gWEpDgPAho",
+        "text": "A male voice is singing kind of a calming lullaby in a higher pitch while you can hear sounds of painful screaming and crying that seem not to belong ",
+        "score": 0.614
+      }
+    ]
+  },
+  {
+    "query": "The low quality recording features a live performance of steel drums. It sounds exotic, passionate and emotional, even though the recording is noisy and has some audio popping sounds.",
+    "true_track": "mwLrABPxvgA",
+    "top3": [
+      {
+        "track": "5y2M_K3bUcQ",
+        "text": "The low quality recording features a groovy didgeridoo melody playing over wooden percussion. The recording is noisy and in mono.",
+        "score": 0.706
+      },
+      {
+        "track": "qBe_D8Gg5lA",
+        "text": "The song is an instrumental. The bagpipes play together in unison and march to the sounds of crowds cheering and other ambient sounds. The song is pat",
+        "score": 0.623
+      },
+      {
+        "track": "YFhbrSUb0JQ",
+        "text": "The low quality recording features a clarinet melody. It sounds harsh, loud and the recording is noisy and in mono.",
+        "score": 0.606
+      }
+    ]
+  },
+  {
+    "query": "Solo sitar using microtonality, droning and string bending. The music is hypnotic and meditative and there is the sound of tape hiss and warble in the recording.",
+    "true_track": "feC0L9MtghM",
+    "top3": [
+      {
+        "track": "5y2M_K3bUcQ",
+        "text": "The low quality recording features a groovy didgeridoo melody playing over wooden percussion. The recording is noisy and in mono.",
+        "score": 0.663
+      },
+      {
+        "track": "YFhbrSUb0JQ",
+        "text": "The low quality recording features a clarinet melody. It sounds harsh, loud and the recording is noisy and in mono.",
+        "score": 0.641
+      },
+      {
+        "track": "feC0L9MtghM",
+        "text": "Solo sitar using microtonality, droning and string bending. The music is hypnotic and meditative and there is the sound of tape hiss and warble in the",
+        "score": 0.583
+      }
+    ]
+  },
+  {
+    "query": "The low quality recording features a traditional song that consists of a passionate male vocal singing over breathy flute melody, shimmering tambourine, claps, wooden percussion and strings melody. It",
+    "true_track": "5AdeNHlPnvs",
+    "top3": [
+      {
+        "track": "_gWEpDgPAho",
+        "text": "A male voice is singing kind of a calming lullaby in a higher pitch while you can hear sounds of painful screaming and crying that seem not to belong ",
+        "score": 0.695
+      },
+      {
+        "track": "Z0htOHTOtHY",
+        "text": "A female opera singer accompanied by an orchestra featuring string bass, harp and string ensemble. It sounds like it was performed in a concert hall. ",
+        "score": 0.621
+      },
+      {
+        "track": "XxKlsW4H0qo",
+        "text": "This is a clip of a singing bowl. The tone is high pitched and sustained and ringing. The song would be suitable for a meditation room or for any kind",
+        "score": 0.618
+      }
+    ]
+  },
+  {
+    "query": "This is a Russian lullaby piece with classical music elements. The male vocalist is singing at a medium-to-high pitch in an opera-like manner. The strings and the piano are playing a gentle but crestf",
+    "true_track": "ZKkfCOqLrT0",
+    "top3": [
+      {
+        "track": "ZKkfCOqLrT0",
+        "text": "This is a Russian lullaby piece with classical music elements. The male vocalist is singing at a medium-to-high pitch in an opera-like manner. The str",
+        "score": 0.737
+      },
+      {
+        "track": "-o0ZtQIkM60",
+        "text": "This is a video game theme. There is a cinematic string sound playing the melody while the wind sound effect implies there is a snowstorm. A male choi",
+        "score": 0.632
+      },
+      {
+        "track": "0zolXzR9Oi4",
+        "text": "This is a classical music piece from the baroque era. The piece is being performed by a harpsichord. There is a mysterious atmosphere and a medieval f",
+        "score": 0.593
+      }
+    ]
+  },
+  {
+    "query": "This audio contains someone playing a xylophone sound and rattles. This is an amateur recording. You can hear clicking and recording noises. This audio may be playing demonstrating specific sounds on ",
+    "true_track": "qpN3Aqrr8mg",
+    "top3": [
+      {
+        "track": "5y2M_K3bUcQ",
+        "text": "The low quality recording features a groovy didgeridoo melody playing over wooden percussion. The recording is noisy and in mono.",
+        "score": 0.732
+      },
+      {
+        "track": "YFhbrSUb0JQ",
+        "text": "The low quality recording features a clarinet melody. It sounds harsh, loud and the recording is noisy and in mono.",
+        "score": 0.728
+      },
+      {
+        "track": "XxKlsW4H0qo",
+        "text": "This is a clip of a singing bowl. The tone is high pitched and sustained and ringing. The song would be suitable for a meditation room or for any kind",
+        "score": 0.671
+      }
+    ]
+  },
+  {
+    "query": "This audio contains fast paced digital drums changing the beat from halftime into a four on the floor with a kick on every beat along with a synth bassline. Other synth sounds are playing a lead sound",
+    "true_track": "2SQxfaWAJJg",
+    "top3": [
+      {
+        "track": "2SQxfaWAJJg",
+        "text": "This audio contains fast paced digital drums changing the beat from halftime into a four on the floor with a kick on every beat along with a synth bas",
+        "score": 0.707
+      },
+      {
+        "track": "MvnC1TfNiPY",
+        "text": "This song is an energetic dance pop. The tempo is medium fast with keyboard accompaniment, synthesiser articulation,infectious digital drumming and vo",
+        "score": 0.704
+      },
+      {
+        "track": "ZFimyfPWltk",
+        "text": "a male vocalist sings this enthusiastic swing pop. The tempo is fast with an enthusiastic electric guitar harmony, energetic drumming, funky bass line",
+        "score": 0.686
+      }
+    ]
+  }
+]
