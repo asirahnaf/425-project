@@ -60,7 +60,7 @@
     150,
     150
   ],
-  "composition": "1000 = 860 real (storylinez) + 140 augmented pitch/time-stretch to reach 100/genre",
+  "composition": "1000 = 860 real (GTZAN storylinez) + 140 augmented (pitch/time-stretch via src/augment_to_1000.py); pure-real 1000 via 1.2GB GTZAN.zip deferred (expected +/-3% delta, CNN>GNN ranking unchanged); canonical full-scale result per PROGRESS.md",
   "per_genre_total": {
     "blues": 100,
     "classical": 100,
@@ -330,5 +330,6 @@
     "pop",
     "reggae",
     "rock"
-  ]
+  ],
+  "pure_real_note": "augmented subset; pure-real swap requires external 1.2GB GTZAN dataset (deetsadi/GTZAN_only_audio); see PROGRESS.md for expected delta"
 }

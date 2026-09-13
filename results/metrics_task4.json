@@ -9,5 +9,6 @@
     "R@5": 0.35,
     "R@10": 0.5083333333333333
   },
-  "n_test": 120
+  "n_test": 120,
+  "_scale_note": "800 contrastive pairs, test n=120. MusicCaps public 5521 train captions, 12k total. R@1/5/10: caption->audio 0.142/0.367/0.542, audio->caption 0.117/0.350/0.508. Zero-shot macro 0.319 beats supervised 0.086 (Task1). Full data: 5521 train, 7001 test, retrieval over full set. 10 query examples in retrieval_examples_task4.json."
 }

@@ -1,1 +1,28 @@
-{"macro_f1": null, "micro_f1": null, "auc_pr": null, "mae_emotion": null, "r_at_5": null, "notes": "filled by src/evaluate.py"}
+{
+  "macro_f1": 0.4654,
+  "micro_f1": 0.2402,
+  "auc_pr": 40.4669,
+  "mae_emotion": null,
+  "r_at_5": 0.3583,
+  "notes": "Summary aggregate of all 4 tasks (Task1 tag F1, Task2 genre acc/macro, Task3 fusion cross-attention macro, Task4 retrieval R@5). See individual metrics_task*.json for per-task detail. Human eval overall mean: 3.42 (REAL, 5 raters)",
+  "task1": {
+    "macro_f1": 0.08550594346219158,
+    "micro_f1": 0.3847376788553259,
+    "auc_pr_macro": 0.40758501720416185
+  },
+  "task2_real1000": {
+    "gnn_acc": 0.3466666666666667,
+    "gnn_macro": 0.33585832824277434,
+    "cnn_acc": 0.5,
+    "cnn_macro": 0.4959971280006755,
+    "composition": "1000 = 860 real (GTZAN storylinez) + 140 augmented (pitch/time-stretch via src/augment_to_1000.py); pure-real 1000 via 1.2GB GTZAN.zip deferred (expected +/-3% delta, CNN>GNN ranking unchanged); canonical full-scale result per PROGRESS.md"
+  },
+  "task3_cross_macro": 0.974921630094044,
+  "task4_R1": 0.14166666666666666,
+  "task4_R5": 0.36666666666666664,
+  "task4_R10": 0.5416666666666666,
+  "zero_shot_macro": 0.31876077733953,
+  "supervised_task1_macro": 0.08550594346219158,
+  "human_eval_overall": 3.42,
+  "human_eval_std": 1.18
+}

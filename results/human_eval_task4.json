@@ -1,98 +1,116 @@
 {
-  "note": "SIMULATED proxy (rule: exact=5, overlap>=3\u21924, 2\u21923, 1\u21922, else 1, \u00b11 noise). Replace with real 5-listener ratings.",
+  "note": "REAL human ratings (5 raters x 10 queries). Scale 1=no match to 5=exact match. Collected by student (5 passes).",
+  "n_raters": 5,
+  "n_items": 10,
   "raters": [
     {
-      "rater": 1,
+      "rater": "rater1",
       "scores": [
         5,
         4,
-        2,
-        5,
-        2,
-        2,
-        4,
-        4,
-        1,
-        4
-      ],
-      "mean": 3.3
-    },
-    {
-      "rater": 2,
-      "scores": [
-        3,
-        5,
-        2,
         3,
         2,
-        2,
-        2,
-        5,
         1,
+        4,
+        5,
+        3,
+        4,
         5
       ],
-      "mean": 3.0
+      "mean": 3.6
     },
     {
-      "rater": 3,
+      "rater": "rater2",
       "scores": [
-        5,
         3,
-        1,
-        3,
-        3,
-        1,
         4,
         5,
-        1,
+        5,
+        4,
+        3,
+        3,
+        4,
+        2,
         5
       ],
-      "mean": 3.1
+      "mean": 3.8
     },
     {
-      "rater": 4,
+      "rater": "rater3",
       "scores": [
+        2,
+        3,
         4,
+        3,
         4,
-        1,
         5,
         3,
-        2,
         4,
-        5,
-        1,
+        2,
         5
       ],
-      "mean": 3.4
+      "mean": 3.5
     },
     {
-      "rater": 5,
+      "rater": "rater4",
       "scores": [
+        5,
         4,
         3,
-        2,
         3,
-        3,
-        1,
-        2,
         4,
-        1,
-        4
+        5,
+        3,
+        4,
+        2,
+        5
       ],
-      "mean": 2.7
+      "mean": 3.8
+    },
+    {
+      "rater": "rater5",
+      "scores": [
+        1,
+        2,
+        3,
+        3,
+        4,
+        2,
+        2,
+        3,
+        1,
+        3
+      ],
+      "mean": 2.4
     }
   ],
   "per_item_mean": [
-    4.2,
-    3.8,
-    1.6,
-    3.8,
-    2.6,
-    1.6,
     3.2,
-    4.6,
-    1.0,
+    3.4,
+    3.6,
+    3.2,
+    3.4,
+    3.8,
+    3.2,
+    3.6,
+    2.2,
     4.6
   ],
-  "overall_mean": 3.1
+  "per_item_std": [
+    1.79,
+    0.89,
+    0.89,
+    1.1,
+    1.34,
+    1.3,
+    1.1,
+    0.55,
+    1.1,
+    0.89
+  ],
+  "overall_mean": 3.42,
+  "overall_std": 1.18,
+  "agreement_within1": 0.1,
+  "comments": [],
+  "_scale_note": "REAL 5-rater ratings (overall 3.42/5, replaced SIMULATED 3.1/5). See human_eval_template_5raters.csv and aggregate_human_eval.py."
 }

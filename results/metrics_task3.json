@@ -32,5 +32,6 @@
     "guitar",
     "piano",
     "vocal"
-  ]
+  ],
+  "_scale_note": "270 pairs (120 synthetic + 150 real), 10 labels (rock/pop/jazz/classical/electronic/happy/sad/guitar/piano/vocal). Full data: 5521 MusicCaps train captions, ~600+ real genre labels. Ablations: bert_only 0.539 / gnn_only 0.374 / concat 0.67 / cross 0.975 macro F1. t-SNE + 3 cases done. Cross-attention fusion dominant."
 }
